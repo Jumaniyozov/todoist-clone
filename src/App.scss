@@ -1,3 +1,6 @@
+/* ==========================================================================
+   LETS BUILD TODOIST
+   ========================================================================== */
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
 // General Settings
@@ -416,7 +419,7 @@ header {
 /* Show Confirm Delete
   ============================================ */
 .project-delete-modal {
-  position: relative;
+  position: absolute;
 
   &__inner {
     @include box-overlay();
